@@ -1,6 +1,6 @@
 # Hell(Hanah & Edna Shell)
 Implementation of a Shell in C program
-# Group Members
+### Group Members
 Edna Bogdanić
 
 Hanah Sijerčić
