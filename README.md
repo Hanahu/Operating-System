@@ -14,7 +14,7 @@ shell.c
 ## Q2:Explain the purpose of a system call. There are different sets of system calls: list them and give at least 2 examples of a system call for each category.
 A system call is a communication link among a running program and the operating system. It enables the user to use the os system's services. Processes written in C, C++, and assembly language are used in these system calls. Each system call has its unique name in each operating system. Every system call is assigned a unique number to identify it.
 ## System Calls:
-## 1.Process Control: 
+## *1.Process Control:* 
 The execution of a program is a process. A process must be loaded into main memory before it can be executed. It may be necessary to wait, terminate, or establish and end child processes while it is running.
 
 Examples in Unix/Windows
