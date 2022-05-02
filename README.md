@@ -16,9 +16,13 @@ A system call is a communication link among a running program and the operating 
 # System Calls:
 # 1.Process Control: 
 The execution of a program is a process. A process must be loaded into main memory before it can be executed. It may be necessary to wait, terminate, or establish and end child processes while it is running.
+
 Examples in Unix/Windows
+
 ●fork()/CreateProcess()
+
 ●exit()/ExitProcess()
+
 ●wait()/WaitForSingleObject()
 # 2.File Management: 
 We can make and delete files using the system. The name of the file and other properties of the file are required for the creation and delete operations. File properties contain things like file type, size of the file, security codes, and accounting data. These properties are used by systems to conduct operations on files and directories. We can open and use the file once it has been created. Reading, writing, and relocating operations on files are also possible with the system.
@@ -49,21 +53,35 @@ Examples in Unix/Windows
 # Outline of the Assignment
 # Instructions for compiling 
 gcc shell.c -o shell
+
 ./shell
 # Challenges
 Researching material that was needed to create a code for project
-Lack of or incomprehensible resources 
+
+Lack of or incomprehensible resources
+
 Difficulty to understand and implement some of the built-in C functions
 # Sources/Tutorials
 https://www.geeksforgeeks.org/making-linux-shell-c/
+
 https://www.cs.cornell.edu/courses/cs414/2004su/homework/shell/shell.html
+
 https://www.guru99.com/introduction-to-shell-scripting.html
+
 https://www.linuxtechi.com/learn-use-fork-vfork-wait-exec-system-calls-linux/
+
 https://g4greetz.wordpress.com/tag/fork-bomb-in-c/
+
 https://www.cyberciti.biz/faq/copy-command/#:~:text=cp%20is%20the%20command%20entered,same%20or%20a%20different%20name.
+
 https://stackoverflow.com/questions/5050479/history-implementation-in-a-simple-shell-program-in-c
+
 https://www.tutorialspoint.com/c_standard_library/c_function_free.htm
+
 https://securitronlinux.com/bejiitaswrath/very-useful-c-program-print-a-random-fortune/
+
 https://www.systutorials.com/how-to-get-the-hostname-of-the-node-in-c/
+
 https://www.programiz.com/c-programming/c-file-input-output
+
 https://tuxthink.blogspot.com/2012/12/c-program-in-linux-to-find-username-of.html
