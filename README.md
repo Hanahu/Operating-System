@@ -40,6 +40,7 @@ Examples in Unix/Windows
 Whenever a process is operating, it requires a number of resources to do its task. Main memory, disk drives, files, and so forth are examples of these resources. The resource is allocated to the process if it is available. The process can read, write, and move the device once the resource has been allocated to it.
 
 Examples in Unix/Windows
+
 ●read()/ReadConsole()
 
 ●write()/WriteConsole()
