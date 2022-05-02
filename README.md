@@ -10,9 +10,9 @@ shell.c
 ## Q1:Do the following actions require the OS to use kernel mode or user mode is sufficient?
 ● A program wants to read from disk.
 
-A read usually involves a hardware access.Accessing hardware is time-consuming and error-prone, and it can render the computer unusable. Drivers are used by the os  to control the hardware of the computer.
+A ```read``` usually involves a hardware access.Accessing hardware is time-consuming and error-prone, and it can render the computer unusable. Drivers are used by the os  to control the hardware of the computer.
 
-When a driver receives a read(assuming it's a hard disk IO), it sends a set of directives to the disk controller, which causes it to read its output, pass it to main memory, and so on. These are risky operations that should never be left to User Mode.
+When a driver receives a ```read```(assuming it's a hard disk IO), it sends a set of directives to the disk controller, which causes it to read its output, pass it to main memory, and so on. These are risky operations that should never be left to User Mode.
 
 ● Reading the current time from the hardware clock.
 
