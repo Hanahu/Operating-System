@@ -25,9 +25,9 @@ The execution of a program is a process. A process must be loaded into main memo
 
 Examples in Unix/Windows
 
-●fork()/CreateProcess()
+```●fork()/CreateProcess()```
 
-●exit()/ExitProcess()
+●```exit()/ExitProcess()```
 
 ●wait()/WaitForSingleObject()
 ## *2.File Management:*
