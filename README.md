@@ -75,9 +75,9 @@ Examples in Unix/Windows
 
 ## Outline of the Assignment
 ## Instructions for compiling 
-'''gcc shell.c -o shell'''
+```gcc shell.c -o shell```
 
-./shell
+```./shell```
 ## Challenges
 Researching material that was needed to create a code for project
 
