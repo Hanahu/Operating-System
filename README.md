@@ -10,7 +10,13 @@ shell.c
 ## Q1:Do the following actions require the OS to use kernel mode or user mode is sufficient?
 ● A program wants to read from disk.
 
+read usually involves a hardware access.Accessing hardware is time-consuming and error-prone, and it can render the computer unusable. Drivers are used by the os  to control the hardware of the computer.
+
+When a driver receives a read() (assuming it's a hard disk IO), it sends a set of directives to the disk controller, which causes it to read its output, pass it to main memory, and so on. These are risky operations that should never be left to User Mode.
+
 ● Reading the current time from the hardware clock.
+
+If the hardware clocks include memory-mapped registers, you can view them freely from user mode as long as the mapped region contains no sensitive data (it may or may not, depends on the hardware).
 ## Q2:Explain the purpose of a system call. There are different sets of system calls: list them and give at least 2 examples of a system call for each category.
 A system call is a communication link among a running program and the operating system. It enables the user to use the os system's services. Processes written in C, C++, and assembly language are used in these system calls. Each system call has its unique name in each operating system. Every system call is assigned a unique number to identify it.
 ## System Calls:
