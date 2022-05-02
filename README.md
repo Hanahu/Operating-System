@@ -118,6 +118,32 @@ In the description we will superficially explain all the main items (commands) t
 
 *Free command displays the total amount of free space available along with the amount of memory used and swap memory in the system, and also the buffers used by the kernel.*
 
+**1. -b, -bytes:** *It displays the memory in bytes.*
+
+**2. -k, -kilo:** *It displays the amount of memory in kilobytes(default).*
+
+**3. -m, -mega:** It displays the amount of memory in megabytes.*
+
+**4. -g, -giga:** It displays the amount of memory in gigabytes.*
+
+**5. -tera:** *It displays the amount of memory in terabytes.*
+
+**6. -h, -human:** *It shows all output columns automatically scaled to shortest three digit unit and display the units also of print out. The units used are B(bytes), K(kilos), M(megas), G(gigas), and T(teras).*
+
+**7. -c, -count:** *It displays the output c number of times and this option actually works with -s option.*
+
+**8. -l, -lohi:** *It shows the detailed low and high memory statistics.*
+
+**9. -o, -old:** *This option disables the display of the buffer adjusted line.*
+
+**10. -s, -seconds:** *This option allows you to display the output continuously after s seconds delay. In actual, the usleepsystem call is used for microsecond resolution delay times.*
+
+**11. -t, -total:** *It adds an additional line in the output showing the column totals.*
+
+**12. -help:** *It displays a help message and exit.*
+
+**13. -V, -version:** *It displays version info and exit.*
+
 ```fortune/Random Quotes```
 
 *Displays random disturbing, inspirational, silly or sarchastic phrases from a database of quotations.*
