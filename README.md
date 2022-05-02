@@ -80,7 +80,7 @@ In the description we will superficially explain all the main items (commands) t
 
 *Stands for copy. This command is used to copy files or group of files or directory.*
 
-*Options*
+*Options:*
 
 **1. -i(interactive): i** *stands for Interactive copying. With this option system first warns the user before overwriting the destination file*.
 
@@ -96,6 +96,24 @@ In the description we will superficially explain all the main items (commands) t
 
 *History command is used to view the previously executed command.*
 
+*Options:*
+
+**1. -c:**	*Clear the history list by deleting all of the entries.*
+
+**2. -d offset:**	*Delete the history entry at offset OFFSET.*
+
+**3. -a:**	*Append history lines from this session to the history file.*
+
+**4. -n:**	*Read all history lines not already read from the history file.*
+
+**5. -r:**	*Read the history file and append the contents to the history list.*
+
+**6. -w:**	*Write the current history to the history file and append them to the history list.*
+
+**7. -p:**	*Perform history expansion on each ARG and display the result without storing it in the history list.*
+
+**8. -s:**	*Append the ARGs to the history list as a single entry.*
+
 ```free```
 
 *Free command displays the total amount of free space available along with the amount of memory used and swap memory in the system, and also the buffers used by the kernel.*
@@ -104,7 +122,7 @@ In the description we will superficially explain all the main items (commands) t
 
 *Displays random disturbing, inspirational, silly or sarchastic phrases from a database of quotations.*
 
-*Options*
+*Options:*
 
 **1. -a:**	*Choose from all databases, regardless of whether they are considered "offensive" or not.*
 
