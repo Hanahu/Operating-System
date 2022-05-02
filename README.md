@@ -76,6 +76,22 @@ Examples in Unix/Windows
 ## Outline of the Assignment
 In the description we will superficially explain all the main items (commands) that were used in the implementation of the shell.
 
+```cp```
+
+*Stands for copy. This command is used to copy files or group of files or directory.*
+
+*Options*
+
+***1. -i(interactive): i** stands for Interactive copying. With this option system first warns the user before overwriting the destination file.
+
+***2. -b(backup):** With this option cp command creates the backup of the destination file in the same folder.
+
+***3. -f(force):** If the system is unable to open destination file because the user doesn’t have writing permission, then by using -f option, destination file is deleted first and then copying of content is done from source to destination file.
+
+***4. -r or -R:** Copying directory structure. With this option cp command copies the entire directory structure recursively.
+
+***5. -p(preserve):** With -p option cp preserves the characteristics(permission bits, ownership...) of each source file in the corresponding destination file.
+
 ```vfork```
 
 *Vfork() is system call which is used to create new process.Child process suspends execution of parent process until child process completes its execution as both processes share the same address space, while fork() child and parent process have separate memory space.*
