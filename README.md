@@ -82,15 +82,49 @@ In the description we will superficially explain all the main items (commands) t
 
 *Options*
 
-***1. -i(interactive): i** stands for Interactive copying. With this option system first warns the user before overwriting the destination file.
+**1. -i(interactive): i** *stands for Interactive copying. With this option system first warns the user before overwriting the destination file*.
 
-***2. -b(backup):** With this option cp command creates the backup of the destination file in the same folder.
+**2. -b(backup):** *With this option cp command creates the backup of the destination file in the same folder.*
 
-***3. -f(force):** If the system is unable to open destination file because the user doesn’t have writing permission, then by using -f option, destination file is deleted first and then copying of content is done from source to destination file.
+**3. -f(force):** *If the system is unable to open destination file because the user doesn’t have writing permission, then by using -f option, destination file is deleted first and then copying of content is done from source to destination file.*
 
-***4. -r or -R:** Copying directory structure. With this option cp command copies the entire directory structure recursively.
+**4. -r or -R:** *Copying directory structure. With this option cp command copies the entire directory structure recursively.*
 
-***5. -p(preserve):** With -p option cp preserves the characteristics(permission bits, ownership...) of each source file in the corresponding destination file.
+**5. -p(preserve):** *With -p option cp preserves the characteristics(permission bits, ownership...) of each source file in the corresponding destination file.*
+
+```history```
+
+*History command is used to view the previously executed command.*
+
+```free```
+
+*Free command displays the total amount of free space available along with the amount of memory used and swap memory in the system, and also the buffers used by the kernel.*
+
+```fortune/Random Quotes```
+
+*Displays random disturbing, inspirational, silly or sarchastic phrases from a database of quotations.*
+
+*Options*
+
+**1. -a:**	*Choose from all databases, regardless of whether they are considered "offensive" or not.*
+
+**2. -e:**	*Make the probability of choosing a fortune file equal to that of all other files.*
+
+**3. -f:**	*Print out a list of all fortune files that would have been searched, but do not print a fortune.*
+
+**4. -i:**	*When used with -m, make regular expression searching case-insensitive.*
+
+**5. -l:**	*Use only quotations longer than the length specified with -n, or 160 characters if -n is not used.*
+
+**6. -m:** *[pattern]	Print all fortunes matching the regular expression specified in [pattern]*
+
+**7. -n:** *[length]	Override the length used by -l and -s to determine "long" and "short" messages (default 160 characters).*
+
+**8. -o:**	*Choose only from "offensive" databases.*
+
+**9. -s:**	*Use only quotations shorter than the length specified with -n, or 160 characters if -n is not used.*
+
+**10.-w:**	*Wait for a period of time before terminating; useful for situations in which a fortune needs to be read before the screen is cleared.*
 
 ```vfork```
 
