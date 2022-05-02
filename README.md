@@ -118,6 +118,8 @@ In the description we will superficially explain all the main items (commands) t
 
 *Free command displays the total amount of free space available along with the amount of memory used and swap memory in the system, and also the buffers used by the kernel.*
 
+*Options:*
+
 **1. -b, -bytes:** *It displays the memory in bytes.*
 
 **2. -k, -kilo:** *It displays the amount of memory in kilobytes(default).*
