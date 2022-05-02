@@ -1,4 +1,4 @@
-# Operating-System
+# Hell(Hanah & Edna Shell)
 Implementation of a Shell in C program
 # Group Members
 Edna Bogdanić
