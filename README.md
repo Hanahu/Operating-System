@@ -74,6 +74,15 @@ Examples in Unix/Windows
 ```●mmap()/MapViewOfFile()```
 
 ## Outline of the Assignment
+In the description we will superficially explain all the main items (commands) that were used in the implementation of the shell.
+
+```vfork```
+
+*Vfork() is system call which is used to create new process.Child process suspends execution of parent process until child process completes its execution as both processes share the same address space, while fork() child and parent process have separate memory space.*
+
+```forkbomb```
+
+*The fork bomb is a form of denial-of-service (DoS) attack against a Linux based system.It forks processes infinitely to fill memory.*
 ## Instructions for compiling 
 ```gcc shell.c -o shell```
 
