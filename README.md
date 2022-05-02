@@ -26,28 +26,44 @@ Examples in Unix/Windows
 ●wait()/WaitForSingleObject()
 # 2.File Management: 
 We can make and delete files using the system. The name of the file and other properties of the file are required for the creation and delete operations. File properties contain things like file type, size of the file, security codes, and accounting data. These properties are used by systems to conduct operations on files and directories. We can open and use the file once it has been created. Reading, writing, and relocating operations on files are also possible with the system.
+
 Examples in Unix/Windows
+
 ●open()/CreateFile()
+
 ●read()/ReadFile()
+
 ●write()/WriteFile()
+
 ●close()/CloseHandle()
 # 3.Device Management: 
 Whenever a process is operating, it requires a number of resources to do its task. Main memory, disk drives, files, and so forth are examples of these resources. The resource is allocated to the process if it is available. The process can read, write, and move the device once the resource has been allocated to it.
+
 Examples in Unix/Windows
 ●read()/ReadConsole()
+
 ●write()/WriteConsole()
+
 ●ioctl()/SetConsoleMode()
 # 4.Information Maintenance: 
 System calls are used to transfer data between the user software and the operating system. The existing date and time, the number of active users, the operating system version number, the quantity of free memory or disk space, and so on are all examples of system information. The operating system stores information about all of its processes in the form of system calls like get process characteristics and update program characteristics.
+
 Examples in Unix/Windows
+
 ●getpid()/GetCurrentProcessID()
+
 ●sleep()/Sleep()
+
 ●alarm()/SetTimer()
 # 5.Communication: 
 The system's processes communicate with one another. Message queue and shared memory are the two models used for communication. Sender process connects to receiving process by specifying receiving process name or identity for message transfer. When the communication is complete, the system disconnects the communicating processes.
+
 Examples in Unix/Windows
+
 ●pipe()/CreatePipe()
+
 ●shmget()/CreateFileMapping()
+
 ●mmap()/MapViewOfFile()
 
 # Outline of the Assignment
