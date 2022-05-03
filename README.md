@@ -172,10 +172,6 @@ In the description we will superficially explain all the main items (commands) t
 
 **10.-w:**	*Wait for a period of time before terminating; useful for situations in which a fortune needs to be read before the screen is cleared.*
 
-```vfork```
-
-*Vfork() is system call which is used to create new process.Child process suspends execution of parent process until child process completes its execution as both processes share the same address space, while fork() child and parent process have separate memory space.*
-
 ```forkbomb```
 
 *The fork bomb is a form of denial-of-service (DoS) attack against a Linux based system.It forks processes infinitely to fill memory.*
