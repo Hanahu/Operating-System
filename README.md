@@ -190,7 +190,7 @@ Lack of or incomprehensible resources
 
 Difficulty to understand and implement some of the built-in C functions
 
-Non-manageable to use rfork() command
+Didn't manage to use rfork() command, because of the lack of understanding the command() and it's function.
 ## Sources/Tutorials
 https://www.geeksforgeeks.org/making-linux-shell-c/
 
