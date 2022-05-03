@@ -189,6 +189,8 @@ Researching material that was needed to create a code for project
 Lack of or incomprehensible resources
 
 Difficulty to understand and implement some of the built-in C functions
+
+Non-manageable to use rfork() command
 ## Sources/Tutorials
 https://www.geeksforgeeks.org/making-linux-shell-c/
 
